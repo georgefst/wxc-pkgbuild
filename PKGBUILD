@@ -8,7 +8,7 @@ arch=("x86_64")
 depends=("gcc" "wxwidgets")
 makedepends=("git" "cmake")
 license=("custom:wxWindows")
-source=("git+${url}#commit=152d1e0f4ead34d76240727fab87185bc0a89c0b") # TODO only clone `wxc` subdir and `license.txt`?
+source=("git+${url}#commit=d4f373020f11b00e96c78c27d4af9d45d8552a15") # TODO only clone `wxc` subdir and `license.txt`?
 sha512sums=("SKIP")
 package() {
   (cd wxHaskell/wxc && ./generate-version-header.sh)
