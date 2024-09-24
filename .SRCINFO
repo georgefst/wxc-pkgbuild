@@ -8,6 +8,7 @@ pkgbase = wxc
 	makedepends = git
 	makedepends = cmake
 	depends = gcc
+	depends = jsoncpp
 	depends = wxwidgets
 	source = git+https://codeberg.org/wxHaskell/wxHaskell#commit=d4f373020f11b00e96c78c27d4af9d45d8552a15
 	sha512sums = SKIP

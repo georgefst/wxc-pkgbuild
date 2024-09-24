@@ -5,7 +5,7 @@ pkgrel="1"
 pkgdesc="A C wrapper around the wxWidgets C++ library"
 url="https://codeberg.org/wxHaskell/wxHaskell"
 arch=("x86_64")
-depends=("gcc" "wxwidgets")
+depends=("gcc" "jsoncpp" "wxwidgets")
 makedepends=("git" "cmake")
 license=("custom:wxWindows")
 source=("git+${url}#commit=d4f373020f11b00e96c78c27d4af9d45d8552a15") # TODO only clone `wxc` subdir and `license.txt`?
